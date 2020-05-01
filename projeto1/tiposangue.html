@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Compatibilidade para doação de sangue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tabela de compatibilidade para doação de sangue</h1>
+        
+        
+    </header>
+    <section>
+
+        <div id="dados">
+            <p>
+        
+         <h1>Verifique se você pode doar primerio!</h1>       
+
+        Nome completo:
+            <input type="text" name="texto" id="texto"/>
+        </p> 
+        
+        <p>Sua idade:
+            <input type="number" name="idade" id="idade"/>
+        </p>
+        
+        <P>
+            Seu peso: 
+            <input type="number" name="peso" id="peso"/>
+            <input type="button" value="Verificar" onclick="verificar()"/>
+            </P></div>
+         
+        <div id="resdados">
+            <h1>Informe os dados completo para verificar...</h1>
+
+        </div>
+        <a href="link.html"><strong> LISTA DE REQUISITOS PARA DOAÇÃO</strong></a>
+       <div id='resdoar'>
+        <P>
+            Seu tipo sanguineo: 
+            <input type="radio" name="sangue" id="tipoA"/>
+            <label for="tipA"> <strong>A+</strong></label>
+            <input type="radio" name="sangue" id="tipoA-"/>
+            <label for="tipAA"><strong>A-</strong></label>
+            <input type="radio" name="sangue" id="tipoB"/>
+            <label for="tipB"><strong>B+</strong></label>
+            <input type="radio" name="sangue" id="tipoB-"/>
+            <label for="tipoABB"><strong>B-</strong></label>         
+            <input type="radio" name="sangue" id="tipoAB"/>
+            <label for="tipAB"><strong>AB+</strong></label>
+            <input type="radio" name="sangue" id="tipoABB"/>
+            <label for="tipABB" > <strong>AB-</strong> </label >
+            <input type="radio" name="sangue" id="tipoO"/>
+            <label for="tipO"><strong>O+</strong></label>
+            <input type="radio" name="sangue" id="tipoOO"/>
+            <label for="tipOO"><strong>O-</strong></label>     
+            
+        </P>
+        <p>
+
+            
+           Você pode doar para: <input type="button" value="Doar" onclick="doar()">
+</p>
+
+        <p>
+            Você pode receber de: <input type="button" value="Receber" onclick="receber()"/>
+        </p>
+        </div>
+        <a href="tiposangue.html"><strong> Voltar ao inicio</strong></a>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Fran Bernardo </p>
+    </footer>
+    <script src="programaçao do site.js"></script>
+</body>
+</html>

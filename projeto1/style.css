@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(foto-fundo-pe.jpg);
+    text-align: center;
+   
+}
+
+section{
+    text-align: center;
+    background: rgb(185, 103, 94);
+    border-radius: 10px;
+    padding: 20px;
+    width:600px;
+    margin: auto;
+    box-shadow: 6px 5px 10px black;
+}
+footer{
+    padding: 80px;
+    text-align: center;
+    font-style: oblique;
+}
+div#resdados{
+  margin-top: 50px;
+  margin-bottom: 50px;  
+  padding-top: 15px;
+}
+div#resdoar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 15px;
+}
