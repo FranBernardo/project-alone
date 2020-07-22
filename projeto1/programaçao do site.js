@@ -12,7 +12,7 @@ function verificar(){
          let pes = Number(peso.value)
          let nom = String(nome.value)
 
-         resdados.style.background = 'turquoise';
+         resdados.style.background = 'blueviolet';
          resdados.style.width = 100;
          resdados.style.length = 100;
          resdados.style.padding = 50;
@@ -51,7 +51,7 @@ function doar(){
         let nom = String(nome.value)
       
         dar.innerHTML = `olá ${nom},  você pode doar para AB+ e A+ `
-        dar.style.background = 'slateblue';
+        dar.style.background = 'blueviolet';
         dar.style.width = 100;
         dar.style.length= 100;
         dar.style.padding= 50 ;
@@ -60,7 +60,7 @@ function doar(){
     }else if( sang[1].checked){
         let nom = String(nome.value)
         dar.innerHTML =`Olá ${nom}, você pode doar para A+, A-, AB+ e AB-`
-        dar.style.background = 'slateblue';
+        dar.style.background = 'blueviolet';
         dar.style.width = 100;
         dar.style.length= 100;
         dar.style.padding= 50 ;
@@ -69,7 +69,7 @@ function doar(){
     }else if (sang[2].checked){
         let nom = String(nome.value)
         dar.innerHTML=`Olá ${nom}, você pode doar para B+ e AB+	`
-        dar.style.background = 'slateblue';
+        dar.style.background = 'blueviolet';
         dar.style.width = 100;
         dar.style.length= 100;
         dar.style.padding= 50 ;
@@ -78,7 +78,7 @@ function doar(){
     }else if(sang[3].checked){
         let nom = String(nome.value)
         dar.innerHTML =` Olá ${nom}, você pode doar para B+, B-, AB+ e AB- `
-        dar.style.background = 'slateblue';
+        dar.style.background = 'blueviolet';
         dar.style.width = 100;
         dar.style.length= 100;
         dar.style.padding= 50 ;
@@ -96,7 +96,7 @@ function doar(){
     }else if(sang[5].checked){
         let nom = String(nome.value)
         dar.innerHTML=`Olá ${nom}, você pode doar para AB+ e AB-`
-        dar.style.background = 'slateblue';
+        dar.style.background = 'blueviolet';
         dar.style.width = 100;
         dar.style.length= 100;
         dar.style.padding= 50 ;
@@ -105,7 +105,7 @@ function doar(){
     } else if (sang[6].checked){
         let nom = String(nome.value)
         dar.innerHTML = `Olá ${nom}, você pode doar para A+, B+, O+ e AB+ `
-        dar.style.background = 'slateblue';
+        dar.style.background = 'blueviolet';
         dar.style.width = 100;
         dar.style.length= 100;
         dar.style.padding= 50 ;
@@ -115,7 +115,7 @@ function doar(){
         let nom = String(nome.value)
         dar.innerHTML = `Olá ${nom}, você pode doar para TODOS!</br>`
         dar.innerHTML += `Você é um doador universal!`
-        dar.style.background = 'mediumvioletred';
+        dar.style.background = 'blueviolet';
         dar.style.width = 100;
         dar.style.length= 100;
         dar.style.padding= 50 ;
@@ -133,7 +133,7 @@ function receber(){
     if(sang[0].checked){
         let nom = String(nome.value)
         recebe.innerHTML = `Olá ${nom}, você pode receber de A+, A-, O+ e O-. `
-        recebe.style.background= 'skyblue';
+        recebe.style.background= 'blueviolet';
         recebe.style.width = 100;
         recebe.style.length= 100;
         recebe.style.padding= 50 ;
@@ -143,7 +143,7 @@ function receber(){
     }   else if (sang[1].checked){
         let nom = String(nome.value)
         recebe.innerHTML = `Olá ${nom}, você pode receber de A- e O-.`
-        recebe.style.background= 'skyblue';
+        recebe.style.background= 'blueviolet';
         recebe.style.width = 100;
         recebe.style.length= 100;
         recebe.style.padding= 50 ;
@@ -153,7 +153,7 @@ function receber(){
     }else if (sang[2].checked){
         let nom = String(nome.value)
         recebe.innerHTML = `Olá ${nom}, você pode receber de 	B+, B-, O+ e O-.`
-        recebe.style.background= 'skyblue';
+        recebe.style.background= 'blueviolet';
         recebe.style.width = 100;
         recebe.style.length= 100;
         recebe.style.padding= 50 ;
@@ -163,7 +163,7 @@ function receber(){
     }else if(sang[3].checked){
         let nom = String(nome.value)
         recebe.innerHTML = `Olá ${nom}, você pode receber de B- e O-.`
-        recebe.style.background= 'skyblue';
+        recebe.style.background= 'blueviolet';
         recebe.style.width = 100;
         recebe.style.length= 100;
         recebe.style.padding= 50 ;
@@ -174,7 +174,7 @@ function receber(){
         let nom = String(nome.value)
         recebe.innerHTML =`Olá ${nom}, você pode RECEBER de TODOS!</br>`
         recebe.innerHTML += `Você é um recepitor universal!`
-        recebe.style.background = 'mediumvioletred';
+        recebe.style.background = 'blueviolet';
         recebe.style.width = 100;
         recebe.style.length= 100;
         recebe.style.padding= 50 ;
@@ -184,7 +184,7 @@ function receber(){
     }else if(sang[5].checked){
         let nom = String(nome.value)
         recebe.innerHTML = `Olá ${nom}, você pode receber de A-, B-, O- e AB-.`
-        recebe.style.background= 'skyblue';
+        recebe.style.background= 'blueviolet';
         recebe.style.width = 100;
         recebe.style.length= 100;
         recebe.style.padding= 50 ;
@@ -195,7 +195,7 @@ function receber(){
     }else if (sang[6].checked){
         let nom = String(nome.value) 
         recebe.innerHTML = `Olá ${nom}, você pode receber de O+ e O-.`
-        recebe.style.background= 'skyblue';
+        recebe.style.background= 'blueviolet';
         recebe.style.width = 100;
         recebe.style.length= 100;
         recebe.style.padding= 50 ;
@@ -205,7 +205,7 @@ function receber(){
     }else if (sang[7].checked){
         let nom = String(nome.value)
         recebe.innerHTML = `Olá ${nom}, você pode receber de O-.`
-        recebe.style.background= 'skyblue';
+        recebe.style.background= 'blueviolet';
         recebe.style.width = 100;
         recebe.style.length= 100;
         recebe.style.padding= 50 ;

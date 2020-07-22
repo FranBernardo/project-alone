@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>requisitos</title>
+    <title>Requisitos</title>
     <style>
     body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: url(foto-fundo-pe.jpg);
+        font-family: 'Roboto Condensed', sans-serif;
+        background: #D3B99F;
     }
     section{
-    text-align: center;
-    background: rgb(185, 103, 94);
-    border-radius: 10px;
-    padding: 20px;
-    width:600px;
-    margin: auto;
-    box-shadow: 6px 5px 10px black;
+        text-align: center;
+        background: #BD93D8;
+        border-radius: 10px;
+        padding: 20px;
+        width:600px;
+        margin: auto;
+        box-shadow: 6px 5px 10px black;
     
     }
     header{
@@ -26,10 +27,29 @@
         
     }
     footer{
-    padding: 80px;
-    text-align: center;
-    font-style: oblique;
+        padding: 80px;
+        text-align: center;
+        font-style: oblique;
 }
+    .botao{
+        cursor: pointer;
+        border: 2px solid blueviolet;
+        background: darkmagenta;
+        width: 100px;
+        height: 70px;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+}
+
+    .botao:hover{
+        border: 2px solid blueviolet;
+        background: rgb(211, 101, 211) ;
+        color: #000;
+}
+    a{
+        text-decoration: none;
+    }
     </style>
 </head>
 <body>
@@ -39,7 +59,7 @@
     <section>
    <div id="app">
    <ul> 
-    <p>pelo menos 50 kg de peso
+    <p>Pelo menos 50 kg de peso
     </p>
     <p>
     Ter dormido pelo menos 6 horas nas últimas 24 horas 
@@ -51,19 +71,13 @@
     Apresentar documento original com foto emitido por órgão oficial.
 </p>
 </ul>
-<a href="tiposangue.html">Voltar</a>
-<input type="button" value="Voltar"  onclick="voltar()" >
+<a href="index.html" class="botao">Voltar</a>
+
    </div> 
 </section>
-   <script>
-       function voltar(){
-           // nao acabei a função
-       }
-   
-   
-   </script>
+  
     <footer>
-        <p>&copy; Fran Bernardo </p>
+        <p>&copy; Fran Bernardo 2020</p>
     </footer>
 </body>
 </html>
